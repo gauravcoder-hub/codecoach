@@ -1,0 +1,51 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/public/build
+/storage/*.key
+.env
+.env.*
+.phpunit.result.cache
+
+# IDEs & Editors
+/.vscode
+/.idea
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs & Debugging
+/storage/framework/cache/*.php
+/storage/framework/sessions/*
+/storage/framework/views/*.php
+
+# Composer & NPM
+composer.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Vite & Webpack
+/public/hot
+/public/mix-manifest.json
+/public/assets
+/public/dist
+/vite.config.js
+
+# PHPUnit
+/.phpunit.result.cache
+
+# Database
+/database/*.sqlite
+/database/*.sqlite3
+/database/*.bak
+/database/*.backup
+
+# Miscellaneous
+*.log
+*.swp
+*.swo

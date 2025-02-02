@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+/* Hide sidebar button on large screens */
+@media (min-width: 992px) {
+    .btn.btn-primary {
+        display: none;
+    }
+}
+
+/* Customize sidebar background */
+.offcanvas {
+    background-color: #fff; /* Match your theme */
+}
+.offcanvas .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    color: #333;
+}
+.offcanvas .nav-link:hover {
+    background-color: #f8f9fa;
+}
+
+
+
